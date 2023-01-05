@@ -1,4 +1,4 @@
-# android_SmallestWidth
+## android_SmallestWidth
 android  sw限定符适配即smallestWidth适配,也叫最小宽度限定符适配,这是对smallestWidth 的一个总结
 
 
@@ -6,8 +6,11 @@ android  sw限定符适配即smallestWidth适配,也叫最小宽度限定符适�
 px = density * dp;
 
 density = dpi / 160;
+
 dpi=density*160
+
 px = dp * (dpi / 160);
+
 dp= px / (dpi / 160) 
 
 名称	密度区间
