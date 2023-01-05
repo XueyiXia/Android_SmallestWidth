@@ -13,19 +13,29 @@ px = dp * (dpi / 160);
 
 dp= px / (dpi / 160) 
 
-名称	密度区间
+## 名称	密度区间
 mdpi	120dpi~160dpi
-hdpi	160dpi~240dpi
-xhdpi	240dpi~320dpi
-xxhdpi	320dpi~480dpi
-xxxhdpi	480dpi~640dpi
-通常情况下每个目录对应的屏幕分辨率如下
 
-名称	代表分辨率
+hdpi	160dpi~240dpi
+
+xhdpi	240dpi~320dpi
+
+xxhdpi	320dpi~480dpi
+
+xxxhdpi	480dpi~640dpi
+
+
+### 通常情况下每个目录对应的屏幕分辨率如下
+
+### 名称	代表分辨率
 mdpi	320x480
+
 hdpi	480x800
+
 xhdpi	720x1280
+
 xxhdpi	1080x1920
+
 xxxhdpi	1440x2960
 
 # 举个栗子：
