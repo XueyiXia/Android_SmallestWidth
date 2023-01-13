@@ -105,7 +105,7 @@ WVGA (Nexus S) API 31， 480*800 ，dpi=240  ， dp值 = sw320
 
 # 最后获取最小宽度值
 
-    fun isXHIGH(context: Context): Boolean {
+    fun is_SW320(context: Context): Boolean {
         val config = context.resources.configuration
         return config.smallestScreenWidthDp <= DisplayMetrics.DENSITY_XHIGH
     }
